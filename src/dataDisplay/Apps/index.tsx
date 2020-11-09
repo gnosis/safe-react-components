@@ -20,6 +20,7 @@ const StyledApps = styled.div`
     box-shadow: 1px 2px 16px 0
       ${({ theme }) => rgba(theme.colors.shadow.color, 0.35)};
     transition: box-shadow 0.3s ease-in-out;
+    cursor: pointer;
 
     h4 {
       color: ${({ theme }) => theme.colors.primary};
