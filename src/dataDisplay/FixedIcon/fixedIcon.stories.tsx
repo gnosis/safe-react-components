@@ -33,6 +33,8 @@ const IconBox = styled.div`
 export const Icons = (): React.ReactElement => {
   const icons: IconTypes[] = [
     'arrowSort',
+    'app',
+    'customApp',
     'connectedRinkeby',
     'connectedWallet',
     'bullit',

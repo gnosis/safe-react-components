@@ -1,6 +1,8 @@
 import React from 'react';
 
 import arrowSort from './images/arrowSort';
+import app from './images/app';
+import customApp from './images/customApp';
 import connectedRinkeby from './images/connectedRinkeby';
 import connectedWallet from './images/connectedWallet';
 import bullit from './images/bullit';
@@ -24,6 +26,8 @@ import networkError from './images/networkError';
 
 const icons = {
   arrowSort,
+  app,
+  customApp,
   connectedRinkeby,
   connectedWallet,
   bullit,
