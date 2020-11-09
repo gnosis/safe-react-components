@@ -23,7 +23,7 @@ export const SimpleApp = (): React.ReactElement => {
     <AppContainer>
       <Apps>
         <FixedIcon type="customApp" />
-        <Button size="lg" color="primary" variant="contained">
+        <Button size="md" color="primary" variant="contained">
           Add Custom App
         </Button>
       </Apps>
