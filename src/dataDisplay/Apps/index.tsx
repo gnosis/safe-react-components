@@ -15,6 +15,16 @@ const StyledApps = styled.div`
   background-color: ${({ theme }) => theme.colors.white};
   width: 244px;
   height: 232px;
+
+  :hover {
+    box-shadow: 1px 2px 16px 0
+      ${({ theme }) => rgba(theme.colors.shadow.color, 0.35)};
+    transition: box-shadow 0.3s ease-in-out;
+
+    h4 {
+      color: ${({ theme }) => theme.colors.primary};
+    }
+  }
 `;
 
 type Props = {

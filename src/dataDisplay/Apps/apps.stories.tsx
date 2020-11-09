@@ -58,9 +58,3 @@ export const SimpleApp = (): React.ReactElement => {
     </AppContainer>
   );
 };
-
-/* export const SimpleApp = (): React.ReactElement => (
-  <Apps>
-    <Title size="md">App Name</Title>
-  </Apps>
-); */
