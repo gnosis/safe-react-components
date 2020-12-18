@@ -31,3 +31,11 @@ export const Vertical = (): React.ReactElement => (
     <div>Some content2</div>
   </div>
 );
+
+export const withoutMargin = (): React.ReactElement => (
+  <>
+    <div>Some content</div>
+    <Divider withoutMargin />
+    <div>Some content2</div>
+  </>
+);
